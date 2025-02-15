@@ -424,9 +424,6 @@ async function main() {
     // Display initial registration message
     console.log(`${chalk.cyan('📝 Register First:')} ${chalk.green('https://testnet.gokite.ai?r=kxsQ3byj')}`);
     console.log(`${chalk.yellow('💡 Join our channel if you got any problem')}\n`);
-    console.log(chalk.magenta('Press any key to continue...'));
-    
-    await waitForKeyPress();
     console.clear();
     
     console.log(banner);
